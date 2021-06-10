@@ -1,0 +1,158 @@
+/*Estrutura*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:white;
+}
+
+#container {
+    
+    background-color:black;
+    padding: 30px;
+    text-align: center;
+
+}
+
+#cabecalho {
+    height: 230px;
+    background: url(imagens/logo2.jpg) no-repeat left;
+    padding: 35px;
+}
+
+.logo {
+   
+    color: rgb(241, 241, 241);
+ 
+
+
+}
+
+/*NAVEGAÇÃO*/
+
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 40px;
+    padding-bottom: 3px;
+    text-decoration: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#cabecalho ul {
+    margin-top: 30px;
+    background: #b10333;
+    text-align: center;
+    float: right;
+   
+}
+   
+#cabecalho ul li {
+    
+    float: left;
+}
+
+#cabecalho ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(imagens/divisor.png) no-repeat left center;
+    
+
+}
+
+#cabecalho ul .primeiro a {
+    background: none;
+}
+
+#cabecalho ul a:hover {
+    color: #69001d;
+}
+
+
+
+
+
+/*conteudo site */
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.postagem1 {
+    pad: 20px;
+    margin-bottom: 20px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background:rgb(215, 220, 228);
+ }
+/*Formatações gerais */
+
+h1 {
+    color: brown;
+    font-size: 2.5em;
+
+}
+
+h2 {
+    color: rgb(238, 26, 26);
+}
+
+
+
+/*formulário */
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: white;
+}
+
+input.submit {
+    width: 80px;
+    color: white;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    
+}
+
+
+
+/*footer*/
+#rodape {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    color: rgb(235, 229, 229);
+}
